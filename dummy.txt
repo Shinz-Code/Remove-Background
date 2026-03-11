@@ -12,10 +12,6 @@
     <script>
         tailwind.config = {
             theme: {
- Ut id est sodales, eleifend erat a, condimentum arcu. Nunc turpis eros, mollis a varius id, aliquet at ipsum. Cras orci lectus, dapibus at posuere et, pellentesque a urna. Nullam eget finibus nibh. Cras sed commodo dui. Aliquam eget elementum nulla. Pellentesque pulvinar velit sit amet purus viverra consectetur. Mauris gravida, dolor a congue porta, velit enim tincidunt massa, quis euismod mi libero at ante.
-
-Pellentesque vulputate convallis facilisis. Donec vehicula et tortor nec fermentum. Phasellus id mi mi. Integer pharetra purus ut arcu tempor vestibulum. Pellentesque nec ullamcorper nisi. Sed ullamcorper mattis sagittis. Nulla viverra eu risus ut mattis. Vivamus pretium lacus in risus laoreet faucibus.
-
                 extend: {
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
@@ -99,7 +95,71 @@ Pellentesque vulputate convallis facilisis. Donec vehicula et tortor nec ferment
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     
                     <!-- Item Tema 1 -->
+                    <a href="https://ermediateam.bismillahku.com/EfaCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200  <!-- Item Tema 1 -->
                     <a href="https://ermediateam.bismillahku.com/EfaCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - EfaCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Item Tema 2 -->
+                    <a href="https://ermediateam.bismillahku.com/RoniCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - RoniCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Item Tema 3 -->
+                    <a href="https://ermediateam.bismillahku.com/SitiCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - SitiCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Item Tema 4 -->
+                    <a href="https://ermediateam.bismillahku.com/YenniCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - YenniCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+transition-all duration-300">
                         <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
                             <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                         </div>
