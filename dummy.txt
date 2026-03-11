@@ -16,7 +16,7 @@
 
 Pellentesque vulputate convallis facilisis. Donec vehicula et tortor nec fermentum. Phasellus id mi mi. Integer pharetra purus ut arcu tempor vestibulum. Pellentesque nec ullamcorper nisi. Sed ullamcorper mattis sagittis. Nulla viverra eu risus ut mattis. Vivamus pretium lacus in risus laoreet faucibus.
 
-11-March-2026                extend: {
+                extend: {
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
                         serif: ['DM Serif Display', 'serif'],
