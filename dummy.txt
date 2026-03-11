@@ -1,17 +1,186 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Praesent quis fermentum nulla. Nam ut tellus id risus fringilla hendrerit nec vitae nunc. Ut dictum ipsum id lacus laoreet dignissim. Aliquam erat volutpat. Nullam rutrum pharetra justo, vel egestas neque ultricies sodales. Nam felis nulla, tempus sit amet lacus commodo, consequat 
-interdum velit. Sed id consequat ex, vitae aliquet justo. Proin porta suscipit nisl, vel aliquam velit consequat vitae. Integer porta lobortis leo, vitae sodales tellus accumsan non. Quisque vel mauris vel diam pulvinar ullamcorper sed ut nibh. Aenean scelerisque imperdiet pellentesque. 
-Phasellus vitae odio ipsum. Fusce mattis sed lacus in tincidunt. 
-Phasellus gravida volutpat ultrices.
-
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mengimpor font elegan dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Memuat Tailwind CSS melalui CDN untuk styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
 Ut id est sodales, eleifend erat a, condimentum arcu. Nunc turpis eros, mollis a varius id, aliquet at ipsum. Cras orci lectus, dapibus at posuere et, pellentesque a urna. Nullam eget finibus nibh. Cras sed commodo dui. Aliquam eget elementum nulla. Pellentesque pulvinar velit sit amet purus viverra consectetur. Mauris gravida, dolor a congue porta, velit enim tincidunt massa, quis euismod mi libero at ante.
 
 Pellentesque vulputate convallis facilisis. Donec vehicula et tortor nec fermentum. Phasellus id mi mi. Integer pharetra purus ut arcu tempor vestibulum. Pellentesque nec ullamcorper nisi. Sed ullamcorper mattis sagittis. Nulla viverra eu risus ut mattis. Vivamus pretium lacus in risus laoreet faucibus.
 
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['DM Serif Display', 'serif'],
+                        playfair: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        gray: {
+                            50: '#fafafa',
+                            100: '#f4f4f5',
+                            500: '#71717a',
+                            800: '#27272a',
+                            900: '#18181b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <title>ErmediaTeam | Shinz</title>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased min-h-screen flex flex-col selection:bg-gray-200">
 
-Suspendisse posuere mi mauris, sed cursus dolor molestie ac. Aliquam at lorem ultrices, dictum neque ac, fringilla tortor. Integer sed ornare ipsum. Morbi vitae malesuada augue, vitae eleifend libero. Vivamus porta, dolor sed fermentum pretium, odio elit ornare tellus, vitae condimentum tellus nisl nec est. Pellentesque est orci, pulvinar ac elit at, tristique blandit leo. Donec accumsan accumsan nibh at congue. Cras imperdiet, nulla ac euismod euismod, leo diam lobortis risus, porta gravida lorem ex quis urna. Aenean felis nunc, facilisis quis fringilla id, luctus non ipsum. Mauris sodales, turpis in dictum blandit, mi mi auctor erat, a vulputate dolor leo a orci. Nam vel dolor placerat, rhoncus magna at, faucibus velit. Praesent maximus vehicula luctus. Quisque porta tempus mi mollis faucibus. In mollis tortor et lectus consequat aliquam. Morbi ut quam eu lectus euismod ultricies ac non mi. Nunc justo nibh, condimentum et mi quis, tempor pellentesque lectus.
+    <!-- Container Utama -->
+    <div class="flex-grow flex flex-col w-full">
+        
+        <!-- Navbar -->
+        <header class="sticky top-0 z-50 bg-gray-50/80 backdrop-blur-md border-b border-gray-100">
+            <nav class="max-w-[1500px] mx-auto px-6 py-5 flex items-center justify-between">
+                <div>
+                    <a href="#" class="text-xl font-bold tracking-tight text-gray-900 hover:opacity-80 transition-opacity">
+                        ErmediaTeam<span class="text-gray-400">.</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex gap-8 items-center">
+                    <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"><b>Tema</b></a>
+                    <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">Element</a>
+                    <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">Warna</a>
+                    <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">Font</a>
+                </div>
+                <!-- Tombol Menu Mobile -->
+                <button class="md:hidden text-gray-500 hover:text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+                </button>
+            </nav>
+        </header>
 
+        <!-- Konten Utama -->
+        <main class="flex-grow w-full max-w-[1500px] mx-auto px-6">
+            
+            <!-- Bagian Hero -->
+            <section id="hero" class="py-24 md:py-32 flex flex-col items-center text-center max-w-5xl mx-auto">
+                <span class="px-4 py-1.5 rounded-full bg-gray-100 border border-gray-200 text-[10px] font-semibold tracking-widest text-gray-500 uppercase mb-6">
+                    Koleksi Terbaru
+                </span>
+                <!-- Judul dengan Font Serif Italic -->
+                <h1 class="text-5xl md:text-8xl font-normal italic text-gray-900 leading-[1.1] mb-6 font-serif ">
+                    Referensi Tema Canva
+                </h1>
+                <!-- Deskripsi dengan teks baru sesuai permintaan -->
+                <p class="text-xs text-gray-400 leading-relaxed mb-10 max-w-lg capitalize tracking-[0.1em]">
+                    Desain akan diganti setiap jam 7.00, pastikan desain kalian sudah selesai(tidak nanggung) jadi berapapun itu.
+                </p>
+                <!-- Anchor Link ke ID daftar-tema -->
+                <a href="#daftar-tema" class="px-8 py-3.5 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800 focus:ring-4 focus:ring-gray-200 transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-gray-200 no-underline">
+                    Cari tema
+                </a>
+            </section>
 
-Suspendisse posuere mi mauris, sed cursus dolor molestie ac. Aliquam at lorem ultrices, dictum neque ac, fringilla tortor. Integer sed ornare ipsum. Morbi vitae malesuada augue, vitae eleifend libero. Vivamus porta, dolor sed fermentum pretium, odio elit ornare tellus, vitae condimentum tellus nisl nec est. Pellentesque est orci, pulvinar ac elit at, tristique blandit leo. Donec accumsan accumsan nibh at congue. Cras imperdiet, nulla ac euismod euismod, leo diam lobortis risus, porta gravida lorem ex quis urna. Aenean felis nunc, facilisis quis fringilla id, luctus non ipsum. Mauris sodales, turpis in dictum blandit, mi mi auctor erat, a vulputate dolor leo a orci. Nam vel dolor placerat, rhoncus magna at, faucibus velit. Praesent maximus vehicula luctus. Quisque porta tempus mi mollis faucibus. In mollis tortor et lectus consequat aliquam. Morbi ut quam eu lectus euismod ultricies ac non mi. Nunc justo nibh, condimentum et mi quis, tempor pellentesque lectus.
+            <!-- Bagian Daftar Tema -->
+            <section id="daftar-tema" class="py-16 md:py-24 border-t border-gray-100">
+                <div class="flex items-center justify-between mb-12">
+                    <h2 class="text-2xl font-semibold text-gray-900 tracking-tight">Daftar Tema</h2>
+                    <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-900 flex items-center gap-1 group">
+                        Lihat semua
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+                
+                <!-- Wadah Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Item Tema 1 -->
+                    <a href="https://ermediateam.bismillahku.com/EfaCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - EfaCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
 
-Ut elementum ut nibh non consequat. Maecenas eu est neque. Ut eget diam tempor, vehicula urna ut, finibus erat. Nulla vulputate erat tortor. Nam vitae lorem semper sem mattis pulvinar ut sit amet justo. Vivamus in pharetra diam, nec malesuada massa. Nunc enim est, varius sollicitudin dapibus in, pretium et ipsum. Suspendisse vel commodo mauris. Proin id nulla libero. Pellentesque posuere vestibulum diam, non convallis nisl fringilla vitae. Donec lectus arcu, placerat sit amet neque sed, commodo fermentum risus. Ut pretium pharetra interdum.
+                    <!-- Item Tema 2 -->
+                    <a href="https://ermediateam.bismillahku.com/RoniCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - RoniCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Item Tema 3 -->
+                    <a href="https://ermediateam.bismillahku.com/SitiCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - SitiCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Item Tema 4 -->
+                    <a href="https://ermediateam.bismillahku.com/YenniCreative/Referensi-1.html" class="group flex flex-col overflow-hidden bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+                        <div class="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
+                            <img src="https://ermediateam06.github.io/Referensi-Design/background.png" alt="Tema 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        </div>
+                        <div class="p-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Referensi 01 - YenniCreative</h3>
+                                <p class="text-sm text-gray-500 mt-1">Ermediateam</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 mt-12 py-12">
+            <div class="max-w-[1500px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex flex-col items-center md:items-start">
+                    <h2 class="text-lg font-bold tracking-tight text-white mb-2">ErmediaTheme.</h2>
+                    <p class="text-sm text-gray-400">Copyright Â© 2026 ErmediaTheme. All rights reserved.</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+                    <a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
